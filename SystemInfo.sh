@@ -27,3 +27,8 @@ if [ $UserChoice = "y" -o $UserChoice = "Y" ]; then
     sudo uname -a >> $FilePath
     echo “Your Result Where Save To The Following location” $FilePath
 fi
+
+## Once script is completed the terminal is cleared, and the menu script is called
+read -p "Press [Enter] key to continue..."
+clear
+./Menu.sh

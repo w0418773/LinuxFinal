@@ -23,3 +23,8 @@ else
     memtester $SysMem $TestRuns
     
 fi
+
+## Once script is completed the terminal is cleared, and the menu script is called
+read -p "Press [Enter] key to continue..."
+clear
+./Menu.sh
