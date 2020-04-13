@@ -20,24 +20,28 @@ case $UsrChoice in
 
   1)
     echo "Starting Virus Scan"
+    read -p "Press [Enter] key to continue..."
     clear
     ./VirusScan.sh
     ;;
 
   2)
     echo "Starting Memory Test"
+    read -p "Press [Enter] key to continue..."
     clear
     ./MemoryTest.sh
     ;;
 
   3)
     echo "Loading System Information"
+    read -p "Press [Enter] key to continue..."
     clear
     ./SystemInfo.sh
     ;;
 
   4)
     echo "Opening Text Editor"
+    read -p "Press [Enter] key to continue..."
     clear
     ./TextEdit.sh
 
@@ -45,16 +49,21 @@ case $UsrChoice in
   
   5)
     echo "Starting Network Test"
+    read -p "Press [Enter] key to continue..."
     clear
     ##./InsertScriptName
     ;;
   
   6)
     echo "Closing Program"
+    read -p "Press [Enter] key to continue..."
     clear
+    ;;
 
   *)
     echo "Please enter a valid option."
+    read -p "Press [Enter] key to continue..."
     clear
     ./Menu.sh
+    ;;
 esac
