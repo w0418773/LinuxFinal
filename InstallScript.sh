@@ -7,3 +7,7 @@ chmod +x Menu.sh
 chmod +x SystemInfo.sh
 chmod +x TextEdit.sh
 chmod +x VirusScan.sh
+
+echo "Installation completed"
+read -p "Press [Enter] key to continue..."
+./Menu.sh
