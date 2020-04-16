@@ -9,6 +9,18 @@ chmod +x TextEdit.sh
 chmod +x VirusScan.sh
 chmod +x NetworkTest.sh
 
+## Installing cron to add Menu.sh to startup
+yes | sudo pacman -S cronie
+
+UserName=$(whoami)
+
+FilePath=('home/'$UserName'/LinuxFinal/Menu.sh')
+CronTabEntry=('@reboot '$FilePath)
+
+echo $CronTabEntry | sudo crontab -
+
+sudo systemctl restart cronie
+
 echo "Installation completed"
 read -p "Press [Enter] key to continue..."
 ./Menu.sh
