@@ -54,7 +54,7 @@ case $UsrChoice in
     echo "Starting Network Test"
     read -p "Press [Enter] key to continue..."
     clear
-    ##./InsertScriptName
+    ./NetworkTest.sh
     ;;
   
   6)

@@ -7,6 +7,7 @@ chmod +x Menu.sh
 chmod +x SystemInfo.sh
 chmod +x TextEdit.sh
 chmod +x VirusScan.sh
+chmod +x NetworkTest.sh
 
 echo "Installation completed"
 read -p "Press [Enter] key to continue..."
