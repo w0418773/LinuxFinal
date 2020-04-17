@@ -14,6 +14,7 @@ yes | sudo pacman -S cronie
 
 UserName=$(whoami)
 
+## Creating a cron job that will start the script at startup
 FilePath=('home/'$UserName'/LinuxFinal/Menu.sh')
 CronTabEntry=('@reboot '$FilePath)
 
