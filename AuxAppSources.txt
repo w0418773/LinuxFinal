@@ -1,0 +1,23 @@
+** AUXILIARY PROGRAMS USED **
+This is a list of the different applications used to complete this project.
+
+Cronie – Used as the method to add my scripts to the start-up.
+Memtester – Used in the MemoryTest.sh script.
+SpeedTest-CLI – Used in the NetworkTest.sh script.
+LSHW – Used in the SystemInfo.sh script.
+Nano – Used in the TextEdit.sh script.
+ClamAV – Used in the VirusScan.sh script.
+
+** REFERENCES **
+
+Cazabon, Charles. “Memtester.” Memtester Version 4, pyropus.ca/software/memtester/.
+
+“ClamavNet.” ClamavNet, www.clamav.net/.
+
+“Cron.” Cron - ArchWiki, wiki.archlinux.org/index.php/Cron.
+
+“Lshw(1) - Linux Man Page.” Lshw(1): Hardware - Linux Man Page, linux.die.net/man/1/lshw.
+
+Nano Command Manual, www.nano-editor.org/dist/v2.2/nano.html.
+
+Sivel. “Sivel/Speedtest-Cli.” GitHub, 22 Aug. 2019, github.com/sivel/speedtest-cli.
